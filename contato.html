@@ -34,7 +34,7 @@
 		<div class="content" align="center"><font color="FCDC2A">
 			<h1>Fale conosco!</h1>
 			<table>
-				<form method="post" action="contato_sucesso.html">
+				<form method="get" action="contato_sucesso.html">
 					<tr>
 						<td>Nome: <input type="text" name="nome" required size="40" placeholder="Insira o seu nome"><br><br></td>
 					</tr>
@@ -42,7 +42,19 @@
 						<td>Email: <input type="email" name="email" required size="40" placeholder="Insira o seu email"><br><br></td>
 					</tr>
 					<tr>
+						<td>Data de cadastro: <input type="date" name="data" required><br><br></td>
+					</tr>
+					<tr>
 						<td>Comentário: <br> <textarea name="obs" cols="46" rows="10" placeholder="O que achou do nosso site?"></textarea><br><br></td>
+					</tr>
+					<tr>
+						<td>Nos avalie! <select name="avaliacao">
+							<option value="1">★☆☆☆☆</option>
+							<option value="2">★★☆☆☆</option>
+							<option value="3">★★★☆☆</option>
+							<option value="4">★★★★☆</option>
+							<option value="5">★★★★★</option>
+						</select><br><br></td>
 					</tr>
 					<tr>
 						<td align="center">
